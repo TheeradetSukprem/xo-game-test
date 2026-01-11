@@ -1,0 +1,17 @@
+{
+  "name": "xo-game",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe game with OAuth 2.0 authentication and scoring system",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["tic-tac-toe", "oauth2", "game"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
